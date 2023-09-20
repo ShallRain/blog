@@ -50,29 +50,28 @@
 
 <script src="/lib/nprogress/nprogress.js"></script>
 
-<script>
-  $(document).ready(() => {
-    NProgress.configure({
-      showSpinner: false,
-    });
-    NProgress.start();
-    $("#nprogress .bar").css({
-      background: "#de7441",
-    });
-    $("#nprogress .peg").css({
-      "box-shadow": "0 0 2px #de7441, 0 0 4px #de7441",
-    });
-    $("#nprogress .spinner-icon").css({
-      "border-top-color": "#de7441",
-      "border-left-color": "#de7441",
-    });
-    setTimeout(function () {
-      NProgress.done();
-      $(".fade").removeClass("out");
-    }, 800);
-  });
-</script>
-
+    <script>
+        $(document).ready(() => {
+            NProgress.configure({
+                showSpinner: false,
+            });
+            NProgress.start();
+            $("#nprogress .bar").css({
+                background: "#406feb",
+            });
+            $("#nprogress .peg").css({
+                "box-shadow": "0 0 2px #406feb, 0 0 4px #406feb",
+            });
+            $("#nprogress .spinner-icon").css({
+                "border-top-color": "#406feb",
+                "border-left-color": "#406feb",
+            });
+            setTimeout(function() {
+                NProgress.done();
+                $(".fade").removeClass("out");
+            }, 800);
+        });
+    </script>
 <script>
   (function () {
     const prefersDark =
