@@ -56,5 +56,5 @@ a.toc-link {
 }
 
 .is-active-link::before {
-    background-color: #406feb
+    background-color: #f03756
 }

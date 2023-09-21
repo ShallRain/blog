@@ -101,7 +101,7 @@ html.dark {
   --c-scrollbar-hover: #555;
 }
 a:hover {
-  color: #406feb;
+  color: #f03756;
   cursor: pointer;
 }
 ::-webkit-scrollbar-track {
